@@ -17,19 +17,19 @@
 	<div class="ws-header">
 		<header>
 			<nav class="navbar navbar-expand-lg justify-content-sm-start">
-				<a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto" href="#">Navbar</a>
+				<a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto" href="#">Logo here</a>
 				<button class="navbar-toggler align-self-start" type="button">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div class="collapse navbar-collapse d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end p-3 p-lg-0 mt-5 mt-lg-0 sideMenu"
+				<div class="collapse navbar-collapse d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end p-3 p-lg-0 mt-lg-0 sideMenu"
 					id="navbarSupportedContent">
 					<ul class="navbar-nav align-self-stretch">
 						<li class="nav-item active">
 							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text" href="#">Link</a>
+							<a class="nav-link text nav-portfolio" href="#portfolio" id="nav-portfolio">Portfolio</a>
 						</li>
 						</li>
 					</ul>
@@ -37,24 +37,27 @@
 			</nav>
 			<div class="overlay"></div>
 		</header>
+		<div class="d-flex justify-content-center">
+			<section class="ws-about ws-fade-in text-center">
+				<h1 class="ws-d-grid text-white">Hello, I'm <span class="ws-name">WASEEM SAJJADH</span></h1>
+				<h3 class="text-white">Full Stack Developer</h3>
+				<a class="btn mt-3 nav-portfolio text-white" href="#portfolio">View More</a>
+			</section>
+		</div>
 	</div>
 
-	<div class="d-flex justify-content-center">
-		<section class="ws-about ws-fade-in text-center">
-			<h1 class="ws-d-grid">Hello, I'm <span class="ws-name">WASEEM SAJJADH</span></h1>
-			<h3 class="">Full Stack Developer</h3>
-			<button class="btn mt-3">View Portfolio</button>
-		</section>
-	</div>
-
-	<main class="">
-		<div class="container mt-5">
+	<main class="main" id="portfolio">
+		<div class="d-flex justify-content-center">
+			<div class="portfolio-divider">
+				<h1 class="text-center ws-name">Portfolio</h1>
+			</div>
+		</div>
+		<div class="container">
 			<div class="row ws-portfolio ws-fade-in">
 				<div class="col-md-4 ws-details">
 					<div class="ws-portfolio-description">
 						<h3>PRODUCT NAME</h3>
 						<a href="#" class="">www.example.com</a>
-
 						<p class="pt-3">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
 							been the
 							industry's standard dummy text ever since the 1500s, when an unknown
@@ -66,18 +69,20 @@
 						<a href="#" class="btn ws-tags">JavaScript</a>
 						<a href="#" class="btn ws-tags">jQuery</a>
 						<a href="#" class="btn ws-tags">CSS3</a>
-						<a href="#" class="btn ws-tags mt-1">Bootstrap</a>
+						<a href="#" class="btn ws-tags">Bootstrap</a>
 					</div>
 
 				</div>
 				<div class="col-md-8 ws-container">
-					<img src="./assets/img/wall.jpg" class="img-fluid" alt="">
+					<img src="./assets/img/123.jpg" class="img-fluid" alt="">
 				</div>
 			</div><!-- ws-portfolio -->
+
+			<div class="divider"></div>
 
 			<div class="row ws-portfolio ws-fade-in">
 				<div class="col-md-8 ws-container-left">
-					<img src="./assets/img/wall.jpg" class="img-fluid" alt="">
+					<img src="./assets/img/123.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-md-4 ws-details">
 					<div class="ws-portfolio-description">
@@ -95,11 +100,13 @@
 						<a href="#" class="btn ws-tags">JavaScript</a>
 						<a href="#" class="btn ws-tags">jQuery</a>
 						<a href="#" class="btn ws-tags">CSS3</a>
-						<a href="#" class="btn ws-tags mt-1">Bootstrap</a>
+						<a href="#" class="btn ws-tags">Bootstrap</a>
 					</div>
 
 				</div>
 			</div><!-- ws-portfolio -->
+
+			<div class="divider"></div>
 
 			<div class="row ws-portfolio ws-fade-in">
 				<div class="col-md-4 ws-details">
@@ -118,18 +125,20 @@
 						<a href="#" class="btn ws-tags">JavaScript</a>
 						<a href="#" class="btn ws-tags">jQuery</a>
 						<a href="#" class="btn ws-tags">CSS3</a>
-						<a href="#" class="btn ws-tags mt-1">Bootstrap</a>
+						<a href="#" class="btn ws-tags">Bootstrap</a>
 					</div>
 
 				</div>
 				<div class="col-md-8 ws-container">
-					<img src="./assets/img/wall.jpg" class="img-fluid" alt="">
+					<img src="./assets/img/123.jpg" class="img-fluid" alt="">
 				</div>
 			</div><!-- ws-portfolio -->
 
+			<div class="divider"></div>
+
 			<div class="row ws-portfolio ws-fade-in">
 				<div class="col-md-8 ws-container-left">
-					<img src="./assets/img/wall.jpg" class="img-fluid" alt="">
+					<img src="./assets/img/123.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-md-4 ws-details">
 					<div class="ws-portfolio-description">
@@ -147,15 +156,50 @@
 						<a href="#" class="btn ws-tags">JavaScript</a>
 						<a href="#" class="btn ws-tags">jQuery</a>
 						<a href="#" class="btn ws-tags">CSS3</a>
-						<a href="#" class="btn ws-tags mt-1">Bootstrap</a>
+						<a href="#" class="btn ws-tags">Bootstrap</a>
 					</div>
 
 				</div>
 			</div><!-- ws-portfolio -->
+
 		</div>
 	</main>
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<footer id="footer container">
+		<div class="d-flex justify-content-center ws-footer">
+			<div class="row text-center pt-lg-4">
+				<div class="col-md-4 col-xs-12">
+					<h1 class="text-white">Start a Project</h1>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<p class="text-white">
+						Interested in working together? We should queue up a chat. I’ll buy the coffee.
+					</p>
+				</div>
+				<div class="col-md-4 col-xs-12 pt-lg-3">
+					<button class="btn footer-btn mb-3">Let's do this</button>
+				</div>
+			</div>
+		</div>
+		<div class="footer text-center">
+
+			<img src="./assets/img/1.jpg" width="30" height="30" alt="">
+			<span class="text-white">logo here</span>
+			<div class="mt-4 mb-4">
+				<p class="h2 ws-title">Living, learning, & leveling up</p>
+				<p class="h2 ws-title">one day at a time.</p>
+			</div>
+			<div class="ws-contact">
+				<a href=""><i class="fab fa-twitter"></i></a>
+				<a href=""><i class="fab fa-linkedin-in"></i></a>
+				<a href="mailto:waseems.developer@gmail.com"><i class="far fa-envelope"></i></a>
+				<a href=""><i class="fab fa-twitter"></i></a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://kit.fontawesome.com/01a2f6f91c.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	<script src="./assets/js/ws.custom.js"></script>
